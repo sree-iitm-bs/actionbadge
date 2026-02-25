@@ -9,8 +9,6 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
-    - uses: actions/checkout@v3
-    - name: Hello
-      run: echo "Workflow running!"
+      - uses: actions/checkout@v3
+      - run: echo "Hello! Workflow finished successfully!"
